@@ -1,6 +1,6 @@
 # Collective Intelligence Class - GitHub Organization
 
-Welcome to the **Collective Intelligence** class GitHub organization! 🎓 This is the central hub for managing and sharing projects related to our course. Each topic is divided into separate repositories, providing a structured environment for collaboration and development.
+Welcome to the **Collective Intelligence** Course! 🎓 This is the central hub for managing and sharing projects related to our course. Each topic is divided into separate repositories, providing a structured environment for collaboration and development.
 
 ## Repository Structure
 
