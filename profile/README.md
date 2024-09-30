@@ -4,9 +4,9 @@ Welcome to the **Collective Intelligence** class GitHub organization! 🎓 This 
 
 ## Repository Structure
 
-Each repository within this organization represents a different topic in the course. Projects are organized in a specific way to ensure consistency across semesters:
+Each repository within this organization represents a different **topic** in the course. Projects are organized in a specific way to ensure consistency across semesters:
 
-- **Branches are divided by semesters**: For example, `2024/25/1` for the first semester of the 2024/25 academic year.
+- **Branches are divided by semesters**: For example, `2024/25/1` for the first semester of the `2024/25` academic year.
 - The **main branch mirrors the latest semester**. You should always start by reviewing this branch.
 - Branches from **previous semesters are locked** and read-only for reference.
 
@@ -14,26 +14,26 @@ Each repository within this organization represents a different topic in the cou
 
 To begin working on a project, follow these steps:
 
-1. **Review last semester's code** (optional). You are encouraged to improve upon the existing codebase, but you may also choose to start fresh.
+1. ✅ **Review last semester's code** (optional). You are encouraged to improve upon the existing codebase, but you may also choose to start fresh.
    
-2. **Clone the repository**:
+2. ✅ **Clone the repository**:
    - Use one of the following methods:
      - **SSH**: `git clone git@github.com:your-org/repo-name.git`
      - **HTTPS**: `git clone https://github.com/your-org/repo-name.git`
      - **GitHub CLI**: `gh repo clone your-org/repo-name`
 
-3. **Create a new branch for the current semester**:
+3. ✅ **Create a new branch for the current semester**:
    ```bash
    git checkout -b 2024/25/1
    ```
    This is where you'll work on modifying, improving, or removing existing code.
 
-4. **Push your branch to GitHub**:
+4. ✅ **Push your branch to GitHub**:
    ```bash
    git push --set-upstream origin 2024/25/1
    ```
 
-5. **Work on the project**: As you make progress, keep the following in mind:
+5. ✅ **Work on the project**: As you make progress, keep the following in mind:
    - **Maintain the code** throughout the semester.
    - **Document your work**: Update the `README.md` with detailed information about the project.
    - **Use the GitHub Wiki** to track bugs, implementation details, and important notes.
@@ -50,11 +50,11 @@ To begin working on a project, follow these steps:
 - The **main branch is protected** and can only be merged at the end of the semester.
 - **Previous semester branches are locked** and read-only for reference.
 - You **do not have permission** to:
-  - Create new teams inside the organization.
-  - Create new repositories.
-  - Modify repository settings.
-  - Add new members to the organization.
-  - Change repositories that are not assigned to your group.
+  - ❌ Create new teams inside the organization.
+  - ❌ Create new repositories.
+  - ❌ Modify repository settings.
+  - ❌ Add new members to the organization.
+  - ❌ Change repositories that are not assigned to your group.
 
 ## Final Notes
 
