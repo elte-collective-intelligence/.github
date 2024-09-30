@@ -1,4 +1,4 @@
-# Collective Intelligence Class - GitHub Organization
+# Collective Intelligence Course
 
 Welcome to the **Collective Intelligence** Course! 🎓 This is the central hub for managing and sharing projects related to our course. Each topic is divided into separate repositories, providing a structured environment for collaboration and development.
 
@@ -43,6 +43,30 @@ To begin working on a project, follow these steps:
 - **Code Maintenance**: Ensure the project runs smoothly throughout the semester.
 - **Detailed Documentation**: Keep the `README.md` file updated with the project's current status, usage instructions, and any other relevant information.
 - **GitHub Wiki**: Each group is responsible for maintaining a Wiki page to track bugs, implementation progress, and other technical details.
+
+## Merging Your Branch at the End of the Semester
+
+Once you've completed your work for the semester, you'll need to merge your branch into the main branch. Please follow these steps carefully:
+
+1. **Ensure your local `main` branch is up to date** with the origin `main` branch:
+   ```bash
+   git checkout main
+   git pull origin main
+   ```
+
+2. **Resolve any merge conflicts** if they arise. Ensure all conflicts are resolved before proceeding.
+
+3. **Merge your branch into the main branch**:
+   ```bash
+   git merge 2024/25/1
+   ```
+
+4. **Push the updated main branch to GitHub**:
+   ```bash
+   git push origin main
+   ```
+
+Once the merge is complete, your changes will be part of the main branch and locked for future reference.
   
 ## Permissions and Restrictions
 
@@ -59,5 +83,7 @@ To begin working on a project, follow these steps:
 ## Final Notes
 
 At the end of the semester, your work will be reviewed, and code from your branch may be merged into the main branch after evaluation. Be sure to follow all best practices, write clean code, and collaborate effectively within your assigned group.
+
+If any issues arise with GitHub, Git, or the Organization, contact me at [tamastheactual@inf.elte.hu](mailto:tamastheactual@inf.elte.hu).
 
 Good luck, and happy coding! 🚀
