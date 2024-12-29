@@ -24,13 +24,13 @@ To begin working on a project, follow these steps:
 
 3. ✅ **Create a new branch for the current semester**:
    ```bash
-   git checkout -b 2024/25/1
+   git checkout -b 2024/25/2
    ```
    This is where you'll work on modifying, improving, or removing existing code.
 
 4. ✅ **Push your branch to GitHub**:
    ```bash
-   git push --set-upstream origin 2024/25/1
+   git push --set-upstream origin 2024/25/2
    ```
 
 5. ✅ **Work on the project**: As you make progress, keep the following in mind:
@@ -58,7 +58,7 @@ Once you've completed your work for the semester, you'll need to merge your bran
 
 3. **Merge your branch into the main branch**:
    ```bash
-   git merge 2024/25/1
+   git merge 2024/25/2
    ```
 
 4. **Push the updated main branch to GitHub**:
