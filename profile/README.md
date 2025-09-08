@@ -6,7 +6,7 @@ Welcome to the **Collective Intelligence** Course! 🎓 This is the central hub 
 
 Each repository within this organization represents a different **topic** in the course. Projects are organized in a specific way to ensure consistency across semesters:
 
-- **Branches are divided by semesters**: For example, `2024/25/1` for the first semester of the `2024/25` academic year.
+- **Branches are divided by semesters**: For example, `2025/26/1` for the first semester of the `2025/26` academic year.
 - The **main branch mirrors the latest semester**. You should always start by reviewing this branch.
 - Branches from **previous semesters are locked** and read-only for reference.
 
@@ -24,13 +24,13 @@ To begin working on a project, follow these steps:
 
 3. ✅ **Create a new branch for the current semester**:
    ```bash
-   git checkout -b 2024/25/2
+   git checkout -b 2025/26/1
    ```
    This is where you'll work on modifying, improving, or removing existing code.
 
 4. ✅ **Push your branch to GitHub**:
    ```bash
-   git push --set-upstream origin 2024/25/2
+   git push --set-upstream origin 2025/26/1
    ```
 
 5. ✅ **Work on the project**: As you make progress, keep the following in mind:
@@ -58,7 +58,7 @@ Once you've completed your work for the semester, you'll need to merge your bran
 
 3. **Merge your branch into the main branch**:
    ```bash
-   git merge 2024/25/2
+   git merge 2025/26/1
    ```
 
 4. **Push the updated main branch to GitHub**:
